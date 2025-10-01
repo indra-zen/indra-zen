@@ -1,3 +1,4 @@
+// Timeline journey & brand info
 export const JOURNEY = [
   {
     range: "2019-2020",
@@ -67,6 +68,7 @@ export const JOURNEY = [
   },
 ];
 
+// Brand identity
 export const BRAND = {
   alias: "Zen",
   name: "Indra Pranata",

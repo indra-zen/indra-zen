@@ -4,18 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Zen // Personal Console</title>
-    <meta
-      name="description"
-      content="Personal site / console eksperimen milik Indra Pranata (Zen) - Linux, Web Dev, Forensic exploration."
-    />
+    <meta name="description" content="Personal site / console eksperimen milik Indra Pranata (Zen) - Linux, Web Dev, Forensic exploration." />
     <meta name="color-scheme" content="dark light" />
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap"
-      as="style"
-    />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" as="style" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="data/journey.js" type="module" defer></script>
     <script src="script.js" type="module" defer></script>
   </head>
 
@@ -23,26 +15,17 @@
     <noscript>
       <div class="no-js">
         <h1>Zen // Personal Story</h1>
-        <p>
-          Aktifkan JavaScript untuk pengalaman interaktif seperti terminal &
-          command palette.
-        </p>
+        <p>Aktifkan JavaScript untuk pengalaman interaktif seperti terminal & command palette.</p>
         <article>
           <h2>Journey Ringkas</h2>
-          <p>
-            Lihat file <code>about-me.md</code> di repo untuk detail lengkap.
-          </p>
+          <p>Lihat file <code>about-me.md</code> di repo untuk detail lengkap.</p>
         </article>
       </div>
     </noscript>
 
     <header class="hero" aria-labelledby="site-title">
-      <h1 id="site-title" class="glitch" data-text='Indra "Zen" Pranata'>
-        Indra "Zen" Pranata
-      </h1>
-      <p class="tagline" id="tagline">
-        Longtime Linux User · Self-taught Web Dev · Digital Forensic Explorer
-      </p>
+      <h1 id="site-title" class="glitch" data-text='Indra "Zen" Pranata'>Indra "Zen" Pranata</h1>
+      <p class="tagline" id="tagline">Longtime Linux User · Self-taught Web Dev · Digital Forensic Explorer</p>
       <div class="blip" aria-hidden="true"></div>
       <div class="terminal-intro" aria-live="polite"></div>
     </header>
@@ -52,35 +35,17 @@
         <div id="console-output" aria-live="polite" aria-atomic="false"></div>
         <form id="console-form" autocomplete="off" aria-label="Console input">
           <span class="prompt" id="console-prompt">zen@zenos:~$</span>
-          <div
-            class="input-wrap"
-            role="textbox"
-            aria-multiline="false"
-            aria-label="Command input"
-            tabindex="0"
-          >
-            <span id="input-mirror"></span
-            ><span class="cursor" aria-hidden="true">█</span>
-            <input
-              id="console-input"
-              name="cmd"
-              type="text"
-              spellcheck="false"
-              autocomplete="off"
-              aria-hidden="true"
-            />
+          <div class="input-wrap" role="textbox" aria-multiline="false" aria-label="Command input" tabindex="0">
+            <span id="input-mirror"></span>
+            <span class="cursor" aria-hidden="true">█</span>
+            <input id="console-input" name="cmd" type="text" spellcheck="false" autocomplete="off" aria-hidden="true" />
           </div>
         </form>
       </section>
 
       <section id="timeline" aria-label="Timeline Perjalanan" class="panel">
         <h2>Timeline</h2>
-        <nav
-          class="years"
-          aria-label="Rentang Waktu"
-          id="year-tabs"
-          role="tablist"
-        ></nav>
+        <nav class="years" aria-label="Rentang Waktu" id="year-tabs" role="tablist"></nav>
         <div id="timeline-content" class="entries" role="tabpanel"></div>
       </section>
 
@@ -93,11 +58,7 @@
           <li>Web Dev Fullstack (self-taught)</li>
           <li>Cybersecurity curiosity (Digital Forensic)</li>
         </ul>
-        <div
-          class="theme-switcher"
-          aria-label="Ganti Tema"
-          id="theme-switcher"
-        ></div>
+        <div class="theme-switcher" aria-label="Ganti Tema" id="theme-switcher"></div>
       </section>
     </main>
 
